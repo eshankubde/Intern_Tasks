@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<h1>Use of SUM function</h1>
+</head>
+<body>
+	<p id="demo1"></p>
+	<p id="demo2"></p>
+	<p id="demo3"></p>
+
+
+	<script type="text/javascript" src="q2.js"></script>
+	<script>
+		var x = [1,2,3,4,5];
+		var t_sum = sum(x);
+		document.getElementById("demo1").innerHTML = 
+		"The sum of array " + x + " is: " + t_sum;
+		document.getElementById("demo2").innerHTML = 
+		"The sum of 50 and 100 is: " + sum(50,100);
+		document.getElementById("demo3").innerHTML = 
+		"The sum of 50,100 and 200 is: " + sum(50,100,200);
+	</script>
+
+</body>
+</html>
